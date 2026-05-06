@@ -1,0 +1,17 @@
+CREATE DATABASE WeerAPIDb;
+GO
+
+USE WeerAPIDb;
+GO
+
+CREATE TABLE WeatherRecords (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    City NVARCHAR(100) NOT NULL,
+    Temperature FLOAT NOT NULL,
+    FeelsLike FLOAT NOT NULL,
+    Humidity INT NOT NULL,
+    WindSpeed FLOAT NOT NULL,
+    Description NVARCHAR(200) NOT NULL,
+    SavedAt DATETIME NOT NULL
+);
+GO

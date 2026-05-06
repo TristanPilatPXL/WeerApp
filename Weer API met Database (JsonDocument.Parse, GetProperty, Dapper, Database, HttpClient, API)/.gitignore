@@ -1,0 +1,10 @@
+# Gevoelige configuratie - nooit pushen
+appsettings.json
+
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
